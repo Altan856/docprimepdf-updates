@@ -1,0 +1,1 @@
+import{n as e,t}from"./createServerFn-SHEXzDKS.js";import{t as n}from"./auth-middleware-JDjVgB0Q.js";var r=t({method:`POST`}).middleware([n]).handler(e(`cdb9c7ed41d0ffd351c8cc3500e8eb84102c44b8768dee05d81cfbe94fff1ccb`));t({method:`GET`}).middleware([n]).handler(e(`f7fb4ef5e8b7dad6a8171be81abd3415b95bfe62eb13a426f90d8aeebf605cc5`));export{r as logUsageServer};

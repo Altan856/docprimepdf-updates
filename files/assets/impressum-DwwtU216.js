@@ -1,0 +1,1 @@
+import{t as e}from"./LegalLayout-BtaSop2J.js";import{t}from"./jsx-runtime-BB9-612F.js";var n=t(),r=()=>(0,n.jsx)(e,{title:`Impressum`,children:(0,n.jsx)(`p`,{children:`Diese Seite wurde nicht gefunden.`})});export{r as notFoundComponent};

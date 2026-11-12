@@ -1,0 +1,1 @@
+import{t as e}from"./LegalLayout-BtaSop2J.js";import{t}from"./jsx-runtime-BB9-612F.js";var n=t(),r=()=>(0,n.jsx)(e,{title:`Allgemeine Geschäftsbedingungen`,children:(0,n.jsx)(`p`,{children:`Der Text konnte gerade nicht geladen werden. Bitte lade die Seite neu.`})});export{r as errorComponent};

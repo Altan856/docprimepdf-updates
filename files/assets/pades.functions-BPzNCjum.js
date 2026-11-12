@@ -1,0 +1,1 @@
+import{n as e,t}from"./createServerFn-SHEXzDKS.js";import{t as n}from"./auth-middleware-JDjVgB0Q.js";var r=t({method:`POST`}).middleware([n]).handler(e(`8ecb1433771834ac6a239b38c417c645dd2714205d9580721dd93c3026cffb74`));t({method:`GET`}).middleware([n]).handler(e(`3b1dc24f8d0112b7741b6bfe07f07c2e36785ec677cf2ff19104b4e7d49c3f39`));export{r as padesSign};

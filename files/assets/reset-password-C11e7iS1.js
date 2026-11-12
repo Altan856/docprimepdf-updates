@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BB9-612F.js";var t=e(),n=()=>(0,t.jsx)(`div`,{className:`p-6 text-sm`,children:`Nicht gefunden`});export{n as notFoundComponent};

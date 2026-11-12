@@ -1,0 +1,1 @@
+import{o as e}from"./rolldown-runtime-BCiCTKAo.js";import{t}from"./useNavigate-Cc78Ow_K.js";import{t as n}from"./react-BWPDF9mI.js";import{a as r,d as i}from"./pdf-store-BumrEea-.js";var a=e(n());function o(){let e=t();return(0,a.useEffect)(()=>{let t=r.get?.()??[];t.length&&i.handOff(t),e({to:`/tools/$slug`,params:{slug:`edit`},replace:!0})},[e]),null}export{o as component};

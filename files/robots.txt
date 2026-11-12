@@ -1,0 +1,72 @@
+# DocPrime PDF – Crawler-Richtlinien
+# Suchmaschinen und KI-Crawler sind ausdrücklich willkommen.
+
+# --- Google (Suche + Gemini/KI) ---
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /checkout
+Disallow: /reset-password
+Disallow: /complete-profile
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# --- Bing / Microsoft Copilot ---
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /checkout
+
+# --- OpenAI (ChatGPT) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# --- Anthropic (Claude) ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Meta / Apple / weitere KI-Crawler ---
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+# --- Alle anderen Crawler ---
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /checkout
+Disallow: /reset-password
+Disallow: /complete-profile
+
+Sitemap: https://www.docprimepdf.de/sitemap.xml

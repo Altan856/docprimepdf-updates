@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BB9-612F.js";var t=e(),n=({error:e})=>(0,t.jsxs)(`div`,{className:`p-6 text-sm`,children:[`Fehler: `,e instanceof Error?e.message:String(e)]});export{n as errorComponent};
